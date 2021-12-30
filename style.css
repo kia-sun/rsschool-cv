@@ -1,9 +1,23 @@
-<style>
-.conteiner{
+.header{
+    display: flex;    
+} 
 
-}  
+.header div{
+    height: 250px;
+   
+    padding: px;
+    border: 1px solid silver;
+    background-color: rgb(34, 33, 32);
+ }
 
-.conteiner div{
-    
-}  
-</style>
+.photo{
+    flex: 1;
+}
+
+.name{
+    flex: 4;     
+} 
+.round{
+    border-radius: 50%;
+}
+
