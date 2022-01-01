@@ -1,23 +1,37 @@
 .header{
-    display: flex;    
+    display: flex; 
+    border: 1px solid silver;   
 } 
-
 .header div{
     height: 250px;
-   
-    padding: px;
-    border: 1px solid silver;
+    color: blanchedalmond;
     background-color: rgb(34, 33, 32);
+    border: 1px solid silver;
  }
 
 .photo{
+    display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
-
 .name{
-    flex: 4;     
+    flex: 4;
 } 
+
 .round{
     border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    /*border: 1px solid rgb(192, 192, 192);*/
+
+}
+.menu li {
+    margin: 40px 0px 0px 0px;
+    /*border: 1px solid silver;*/
 }
 
