@@ -11,40 +11,55 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
-
+.hr-multiline{
+    margin: 0px 0px -20px 30px;
+    padding: 0;
+    height: 15px;
+    border: none;
+    color: rgb(192, 167, 173);
+    background-image: linear-gradient(currentColor, currentColor 33.33%, transparent 33.33%, transparent 100%);
+    background-size: 100% 3px;
+    width: 100%;
+    }
+.hr-shelf {
+	margin: -30px auto 10px;
+	padding: 0;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+	width: 100%;
+    
+}
 .header{
     display: flex; 
-    border: 1px solid silver;   
+    /*border: 1px solid silver;*/  
 } 
 .header div{
     height: 250px;
     color: blanchedalmond;
     background-color: rgb(34, 33, 32);
-    border: 1px solid silver;
- }
+}
     .photo{
         display: flex;
-        /*flex: 1;*/
         width: 20%;
         justify-content: center;
         align-items: center;
     }
-    .name{
-         /*flex: 4;*/
-         width: 80%;
-    } 
     .round{
         border-radius: 50%;
     }
-.menu{
+    .name{
+         width: 80%;
+    } 
+        
+    .menu{
     display: flex;
     justify-content: space-around;
     align-content: flex-end;
-    /*border: 1px solid rgb(192, 192, 192);*/
 }
-.menu li {
-    margin: 40px 0px 0px 0px;
-    border: 1px solid silver;
+    .menu li {
+    margin: 10px 0px 0px 0px;
 }
 .main{
     display: flex;
@@ -59,27 +74,29 @@ body{
 }
     .title1, .title2, .title3, .title4, .title5{
         width: 20%;
-        border: 1px solid rgb(117, 206, 16);  
+        padding: 0px 0px 0px 50px;
+        font-size: 120%; 
     }
     .content1, .content2, .content3, .content4, .content5{
         width: 80%;
-        border: 1px solid silver; 
+       /* border: 1px solid silver;*/
+        padding: 0px 0px 0px 50px; 
+    }
+    .content5{
+        display: flex;
+    }
+    .content1{
+        /*padding: 0px 50px 0px 100px;
+        margin: 0px 0px 0px 100px;*/
+        
     }
 .skills{
     display: flex;
     width: 100%;
     color: black;
-    background-color: rgb(180, 128, 141);
+    background-color: rgb(192, 167, 173);
     border: 1px solid silver;
-    }
-        .title2{
-            /*width: 20%;*/
-            border: 1px solid rgb(117, 206, 16);  
-        }
-        .content2{
-            /*width: 80%;*/
-            border: 1px solid silver; 
-        }
+}
 .cod{
     display: flex;
     width: 100%;
@@ -91,13 +108,13 @@ body{
     display: flex;
     width: 100%;
     color: black;
-    background-color: rgb(180, 128, 141);
+    background-color: rgb(192, 167, 173);
     border: 1px solid silver;
 }
 .education{
     display: flex;
-    width: 100%;
     color: black;
-    background-color: rgb(180, 128, 141);
+    background-color: rgb(192, 167, 173);
     border: 1px solid silver;
 }
+   
