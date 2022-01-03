@@ -1,9 +1,165 @@
-<style>
-.conteiner{
-
-}  
-
-.conteiner div{
+@font-face {
+    font-family: 'Oswald';
+     src: url("assets/fonts/Oswald-VariableFont_wght.ttf");
+     font-weight: 300;
+   }
+@font-face {
+    font-family: 'Oswald';
+     src: url("assets/fonts/Oswald-VariableFont_wght.ttf");
+     font-weight: 500;
+   }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.hr-multiline{
+    margin: 0px px 0px 0px;
+    padding: 0;
+    height: 10px;
+    border: none;
+    color: rgb(192, 167, 173);
+    background-image: linear-gradient(currentColor, currentColor 33.33%, transparent 33.33%, transparent 100%);
+    background-size: 100% 3px;
+    width: 90%;
+    align-items: center
+    }
+.hr-shelf {
+	margin: -30px auto 10px;
+	padding: 0;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+	width: 100%;
     
-}  
-</style>
+}
+.header{
+    display: flex; 
+} 
+.header div{
+    height: 250px;
+    color: blanchedalmond;
+    background-color: rgb(78, 74, 75);
+}
+    .photo{
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+            .round{
+                border-radius: 50%;
+            }
+    .name{
+         width: 80%;
+    } 
+            .name h1{
+                font-size: 30px;
+                letter-spacing: 10px;
+            } 
+        
+            .menu{
+                display: flex;
+                justify-content: space-around;
+                align-content: flex-end;
+                margin: 40px 0px 0px 0px;
+                text-align: left;
+            }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    } 
+    .title1, .title2, .title3, .title4, .title5, .title6{
+        display: flex;
+        justify-content: left ;
+        width: 17%;
+        padding: 0px 0px 0px 20px;
+        font-size: 120%;
+        background-color: rgb(78, 74, 75);
+    }
+    .content1, .content2, .content3, .content4, .content5, .content6{
+        width: 83%;
+        padding: 0px 0px 0px 50px; 
+    }
+    .content5{
+        display: flex;
+    }
+        .about-me{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }  
+        .skills{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }
+        .cod{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(170, 142, 149);
+            border: 1px solid silver;
+        }
+            .function{
+                padding: 50px 0px 0px 100px;
+                width: 310px;
+                font-size: 16px;
+            }
+        .expirience, .english{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }
+        .education{
+            display: flex;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }
+ 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;  
+}
+        .git-block {
+            margin: 0px 80px 0px 0px;
+        }
+            .my-git{
+                display: flex;
+                align-items: center;
+            }
+            .github-icon{
+                width: 50px;
+                height: 50px;
+                padding: 10px; 
+            }
+            .footer a {
+                text-decoration: none;
+                color: black;
+            }
+        .year-block {
+                font-size: 20px;
+        }
+        .rs-block {
+             margin: 0px 0px 0px 80px;
+        }
+            .rs-icon{
+                width: 90px;
+                height: 50px;
+            }
+        
