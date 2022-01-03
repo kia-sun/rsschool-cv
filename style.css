@@ -75,62 +75,64 @@ body{
     display: flex;
     flex-direction: column;
     } 
-.about-me{
-    display: flex;
-    width: 100%;
-    color: black;
-    background-color: rgb(192, 167, 173);
-    border: 1px solid silver;
-}
     .title1, .title2, .title3, .title4, .title5{
         width: 17%;
         padding: 0px 0px 0px 50px;
         font-size: 120%;
         background-color: rgb(78, 74, 75);
-        /*border: 1px solid silver;*/ 
     }
     .content1, .content2, .content3, .content4, .content5{
         width: 83%;
-       /* border: 1px solid silver;*/
         padding: 0px 0px 0px 50px; 
     }
     .content5{
         display: flex;
     }
-    
-.skills{
-    display: flex;
-    width: 100%;
-    color: black;
-    background-color: rgb(192, 167, 173);
-    border: 1px solid silver;
-}
-.cod{
-    display: flex;
-    width: 100%;
-    color: black;
-    background-color: rgb(184, 141, 152);
-    border: 1px solid silver;
-}
-.expirience{
-    display: flex;
-    width: 100%;
-    color: black;
-    background-color: rgb(192, 167, 173);
-    border: 1px solid silver;
-}
-.education{
-    display: flex;
-    color: black;
-    background-color: rgb(192, 167, 173);
-    border: 1px solid silver;
-}
+        .about-me{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }  
+        .skills{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }
+        .cod{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(170, 142, 149);
+            border: 1px solid silver;
+        }
+            .function{
+                padding: 50px 0px 0px 100px;
+                width: 310px;
+                font-size: 16px;
+            }
+        .expirience{
+            display: flex;
+            width: 100%;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }
+        .education{
+            display: flex;
+            color: black;
+            background-color: rgb(192, 167, 173);
+            border: 1px solid silver;
+        }
  
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(184, 141, 152);  
+    background-color: blanchedalmond;  
 }
         .git-block {
             margin: 0px 80px 0px 0px;
