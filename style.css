@@ -53,6 +53,7 @@ body{
         align-items: center;
     }
             .round{
+                height: 200px;
                 border-radius: 50%;
             }
     .name{
@@ -61,8 +62,11 @@ body{
             .name h1{
                 font-size: 30px;
                 letter-spacing: 10px;
+                text-align: center;
             } 
-        
+            .name p{
+                text-align: center;
+            } 
             .menu{
                 display: flex;
                 justify-content: space-around;
