@@ -18,14 +18,15 @@ body{
     padding: 0;
 }
 .hr-multiline{
-    margin: 0px 0px -20px 30px;
+    margin: 0px px 0px 0px;
     padding: 0;
-    height: 15px;
+    height: 10px;
     border: none;
     color: rgb(192, 167, 173);
     background-image: linear-gradient(currentColor, currentColor 33.33%, transparent 33.33%, transparent 100%);
     background-size: 100% 3px;
-    width: 100%;
+    width: 90%;
+    align-items: center
     }
 .hr-shelf {
 	margin: -30px auto 10px;
@@ -39,12 +40,11 @@ body{
 }
 .header{
     display: flex; 
-    /*border: 1px solid silver;*/  
 } 
 .header div{
     height: 250px;
     color: blanchedalmond;
-    background-color: rgb(34, 33, 32);
+    background-color: rgb(78, 74, 75);
 }
     .photo{
         display: flex;
@@ -52,24 +52,25 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .round{
-        border-radius: 50%;
-    }
+            .round{
+                border-radius: 50%;
+            }
     .name{
          width: 80%;
     } 
-    .name h1{
-        font-size: 30px;
-   } 
+            .name h1{
+                font-size: 30px;
+                letter-spacing: 10px;
+            } 
         
-    .menu{
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-end;
-}
-    .menu li {
-    margin: 10px 0px 0px 0px;
-}
+            .menu{
+                display: flex;
+                justify-content: space-around;
+                align-content: flex-end;
+                margin: 40px 0px 0px 0px;
+                text-align: left;
+            }
+
 .main{
     display: flex;
     flex-direction: column;
@@ -82,12 +83,14 @@ body{
     border: 1px solid silver;
 }
     .title1, .title2, .title3, .title4, .title5{
-        width: 20%;
+        width: 17%;
         padding: 0px 0px 0px 50px;
-        font-size: 120%; 
+        font-size: 120%;
+        background-color: rgb(78, 74, 75);
+        /*border: 1px solid silver;*/ 
     }
     .content1, .content2, .content3, .content4, .content5{
-        width: 80%;
+        width: 83%;
        /* border: 1px solid silver;*/
         padding: 0px 0px 0px 50px; 
     }
@@ -106,7 +109,7 @@ body{
     display: flex;
     width: 100%;
     color: black;
-    background-color: rgb(180, 128, 141);
+    background-color: rgb(184, 141, 152);
     border: 1px solid silver;
 }
 .expirience{
@@ -126,35 +129,33 @@ body{
 .footer{
     display: flex;
     justify-content: center;
-    align-content: flex-end;
     align-items: center;
     background-color: rgb(184, 141, 152);  
 }
-.footer div{
-    display: inline-block;
-    /*height : 50px;*/
-    margin-bottom: 0px; 
-}
-.year-block {
-    font-size: 22px;
-    /*border: 1px solid springgreen;*/
-    }
-.git-block {
-    background-image: url(./assets/img/648256.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
-    margin: 0px 80px 0px 0px;
-    /*border: 1px solid springgreen;*/
-    }
-.rs-block {
-    background-image: url(./assets/img/rs_school_js.svg);
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 28px;
-    margin: 25px 0px 0px 80px;
-    padding: 24px;
-    /*overflow : hidden;
-    border: 1px solid springgreen;*/
-    }
+        .git-block {
+            margin: 0px 80px 0px 0px;
+        }
+            .my-git{
+                display: flex;
+                align-items: center;
+            }
+            .github-icon{
+                width: 50px;
+                height: 50px;
+                padding: 10px; 
+            }
+            .footer a {
+                text-decoration: none;
+                color: black;
+            }
+        .year-block {
+                font-size: 20px;
+        }
+        .rs-block {
+             margin: 0px 0px 0px 80px;
+        }
+            .rs-icon{
+                width: 90px;
+                height: 50px;
+            }
+        
