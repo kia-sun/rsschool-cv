@@ -75,13 +75,15 @@ body{
     display: flex;
     flex-direction: column;
     } 
-    .title1, .title2, .title3, .title4, .title5{
+    .title1, .title2, .title3, .title4, .title5, .title6{
+        display: flex;
+        justify-content: left ;
         width: 17%;
-        padding: 0px 0px 0px 50px;
+        padding: 0px 0px 0px 20px;
         font-size: 120%;
         background-color: rgb(78, 74, 75);
     }
-    .content1, .content2, .content3, .content4, .content5{
+    .content1, .content2, .content3, .content4, .content5, .content6{
         width: 83%;
         padding: 0px 0px 0px 50px; 
     }
@@ -114,7 +116,7 @@ body{
                 width: 310px;
                 font-size: 16px;
             }
-        .expirience{
+        .expirience, .english{
             display: flex;
             width: 100%;
             color: black;
