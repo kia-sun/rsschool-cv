@@ -9,7 +9,13 @@
      font-weight: 500;
    }
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .hr-multiline{
     margin: 0px 0px -20px 30px;
@@ -52,6 +58,9 @@ body{
     .name{
          width: 80%;
     } 
+    .name h1{
+        font-size: 30px;
+   } 
         
     .menu{
     display: flex;
@@ -85,11 +94,7 @@ body{
     .content5{
         display: flex;
     }
-    .content1{
-        /*padding: 0px 50px 0px 100px;
-        margin: 0px 0px 0px 100px;*/
-        
-    }
+    
 .skills{
     display: flex;
     width: 100%;
@@ -117,4 +122,39 @@ body{
     background-color: rgb(192, 167, 173);
     border: 1px solid silver;
 }
-   
+ 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    background-color: rgb(184, 141, 152);  
+}
+.footer div{
+    display: inline-block;
+    /*height : 50px;*/
+    margin-bottom: 0px; 
+}
+.year-block {
+    font-size: 22px;
+    /*border: 1px solid springgreen;*/
+    }
+.git-block {
+    background-image: url(./assets/img/648256.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 0px 80px 0px 0px;
+    /*border: 1px solid springgreen;*/
+    }
+.rs-block {
+    background-image: url(./assets/img/rs_school_js.svg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 28px;
+    margin: 25px 0px 0px 80px;
+    padding: 24px;
+    /*overflow : hidden;
+    border: 1px solid springgreen;*/
+    }
